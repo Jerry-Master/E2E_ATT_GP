@@ -16,7 +16,7 @@ To run this code you will need to download the preprocessed RSNA dataset from th
 [https://www.kaggle.com/josepc/brain-ct-npy-3](https://www.kaggle.com/josepc/brain-ct-npy-3)
 [https://www.kaggle.com/josepc/brain-ct-npy-test](https://www.kaggle.com/josepc/brain-ct-npy-test)
 
-And modify lines 43 to 53 of `E2E_ATT_GP.py` and `E2E_GP_ATT.py` to point to the location of the files. You should modify line 204 and 207 respectively to indicate the location of where to save the resulting checkpoints. All the pretrained checkpoints are provided in the release. There are five models for each combination of hyperparameter employed.
+And modify lines 43 to 53 of `E2E_ATT_GP.py` and `E2E_GP_ATT.py` to point to the location of the files. You should modify line 204 and 207 respectively to indicate the location of where to save the resulting checkpoints. All the pretrained checkpoints are provided in the release. There is one model for each combination of hyperparameter employed.
 
 ## Implementation details
 
