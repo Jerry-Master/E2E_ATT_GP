@@ -55,7 +55,7 @@ model = keras.Sequential([cnn_part,
                             ])
 ```
 
-We needed to modify the Gaussian Process layer provided in the libraries to change the way the Kullback-Leibler divergence is added. By default it was being scaled by the number of datapoints. We changed that to scale the KL loss by any amount we desired and called that amount the scaling factor. Other relevant aspect to bear in mind is the way the inducing points are initialized. We used a grid ranging between the minimum and the maximum value of the coordinates in the latent space. Also, the attention layer operates at a different latent dimension depending on whether it is used previous to the GP layer of after it. For a reference on the values of all the hyperparameters, please refer to the article.
+The `GPLayerSeq` is a custom Gaussian Process layer we needed to create to change the way the Kullback-Leibler divergence is added in the standard libraries. By default it was being scaled by the number of datapoints. We changed that to scale the KL loss by any amount we desired and called that amount the scaling factor. Other relevant aspect to bear in mind is the way the inducing points are initialized (`create_inducing_points`). We used a grid ranging between the minimum and the maximum value of the coordinates in the latent space. Also, the attention layer operates at a different latent dimension depending on whether it is used previous to the GP layer of after it. For a reference on the values of all the hyperparameters, please refer to the article.
 
 ## Development
 
