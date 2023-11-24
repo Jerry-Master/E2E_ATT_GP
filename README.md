@@ -1,6 +1,6 @@
 # An End-to-end Approach to combine Attention feature extraction and Gaussian Process models for Deep Multiple Instance Learning in CT Hemorrhage Detection
 
-Official release for the article published at Expert Systems With Applications. We provide the code used to obtain the published results.
+Official release for the article published at Expert Systems With Applications available [here](https://doi.org/10.1016/j.eswa.2023.122296). We provide the code used to obtain the published results.
 
 ## Installation
 
